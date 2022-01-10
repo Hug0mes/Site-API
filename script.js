@@ -8,7 +8,7 @@ function register() {
     var birthday = document.getElementById("birthday").value; //formato ano-mes-dia
 
     if (password == Rpassword) {
-        fetch('http://gangwars.fun/api/register', {
+        fetch('https://ganwars.fun/api/register', {
             method: 'post',
             headers: {
                 'Accept': 'application/json, text/plain, */*',
@@ -41,7 +41,7 @@ function login() {
     var email = document.getElementById("emailLogin").value;
     var password = document.getElementById("passwordLogin").value;
 
-    fetch('http://gangwars.fun/api/login', {
+    fetch('https://ganwars.fun/api/login', {
         method: 'post',
         headers: {
             'Accept': 'application/json, text/plain, */*',
